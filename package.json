@@ -1,0 +1,30 @@
+{
+  "name": "jobify-fullstacklab",
+  "version": "1.0.0",
+  "description": "projeto desenvolvido baseado na semana fullStack do devPleno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marlon-Santos/Jobify-FullStackLab.git"
+  },
+  "keywords": [
+    "full-stack",
+    "javascript",
+    "html",
+    "css",
+    "jobify"
+  ],
+  "author": "Marlon Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marlon-Santos/Jobify-FullStackLab/issues"
+  },
+  "homepage": "https://github.com/Marlon-Santos/Jobify-FullStackLab#readme",
+  "dependencies": {
+    "ejs": "^2.7.2",
+    "express": "^4.17.1"
+  }
+}
