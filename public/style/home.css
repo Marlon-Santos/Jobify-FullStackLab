@@ -24,7 +24,7 @@ header {
 }
 
 header > img {
-  width: 30%;
+  width: 400px;
 }
 
 header > h2 {
@@ -34,6 +34,20 @@ header > h2 {
 
 /* .......................................................................... */
 
+article > h1 {
+  color: #315252;
+  text-align: center;
+  font-size: 30px;
+}
+
+article > span {
+  display: block;
+  color: #315252;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
 div > h1 {
   padding: 15px 10px;
   background-color: #669999;
@@ -42,6 +56,7 @@ div > h1 {
 div > a {
   display: block;
   padding: 10px 20px;
+  width: fit-content;
 }
 
 /* .......................................................................... */
