@@ -1,5 +1,9 @@
 const express = require("express");
 const App = express();
+
+App.set("view engine", "ejs");
+App.use(express.static("public"));
+
 App.get("/", (req, resp) => {
-  resp.send("<h1>testando servidor</h1>");
+  resp.render("home");
 }).listen(3000);
